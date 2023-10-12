@@ -21,7 +21,7 @@ public class SpringBootTutorialApplication {
   @Value("${team.name}")
   private String teamName;
 
-  @GetMapping("/teamInfo")
+  @GetMapping("/teamName")
   public String getTeamInfo() {
     return "Team Name: " + teamName + "\nCoach Name: " + coachName;
   }
