@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+//@SpringBootApplication(
+//        scanBasePackages = {"com.util.*", "com.example.springtutorial"}
+//)
 @SpringBootApplication
 @RestController
 public class SpringBootTutorialApplication {
